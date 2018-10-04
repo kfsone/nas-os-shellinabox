@@ -2,6 +2,10 @@
 
 echo "{\"port\":$RAINBOW_PORT_WEB_UI, \"path\":\"$RAINBOW_WEB_PATH\"}" > /opt/shellinabox/.config
 
-# useradd admin -p mWpU5CPqOn4jQ -s /bin/bash
+# Clear out admin user before we proceed
+if grep -Fq "^admin:" /etc/shadow
+then
+	userdel -fr admin
+fi
 
 exit 0

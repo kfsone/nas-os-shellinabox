@@ -1,8 +1,10 @@
 Shell In A Box - NAS OS App
-==================================
+===========================
 
 **Shell In A Box** is an app to install on NASes running NAS OS (for Seagate or LaCie NAS).
-It's based on the [shellinabox fork](https://github.com/shellinabox/shellinabox) project.
+
+This variant is based on [Djailla's fork](https://github.com/Djailla/nas-os-shellinabox) or
+of the [shellinabox fork](https://github.com/shellinabox/shellinabox) project.
 
 It allow to access to a shell in a web ui.
 
@@ -15,4 +17,4 @@ To do so, run :
 
 `passwd`
 
-![Alt text](com.djailla.shellinabox/resources/screenshots/en/screenshot-1.png?raw=true "Screenshot")
+![Alt text](org.kfs.shellinabox/resources/screenshots/en/screenshot-1.png?raw=true "Screenshot")

@@ -9,9 +9,13 @@ sed -i "s/\"port\":[0-9]*/\"port\":$RAINBOW_PORT_WEB_UI/" /opt/shellinabox/.conf
 
 # Create a custom user with admin/admin as credentials
 # TODO : use NAS OS admin users
-if ! grep -Fq "admin" /etc/shadow
+if ! grep -Fq "^admin:" /etc/shadow
 then
-	useradd admin -p mWpU5CPqOn4jQ -s /bin/bash
+	useradd admin -m -p mWpU5CPqOn4jQ -s /bin/bash
+fi
+if [ ! -f /etc/sudoers.d/admin ]
+then
+	echo "admin ALL=(ALL) ALL" >/etc/sudoers.d/admin
 fi
 
 case $1 in

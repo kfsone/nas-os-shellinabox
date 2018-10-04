@@ -1,13 +1,16 @@
 {
     "type": "application",
-    "id": "com.djailla.shellinabox",
+    "id": "org.kfs.shellinabox",
     "version": "1.0.0",
     "depends": [
-        "org.debian.jessie-lamp-1.0"
+        "org.debian.wheezy-lamp-1.2"
     ],
     "display_mode": "embedded",
     "redirect_mode": "custom",
     "network_ports": {
         "WEB_UI": 4200
-    }
+    },
+    "settings": {},
+    "redirect_path": "/",
+    "redirect_protocol": "http"
 }

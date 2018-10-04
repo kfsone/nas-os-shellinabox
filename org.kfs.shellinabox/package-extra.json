@@ -11,7 +11,11 @@
     "categories": [
         "productivity"
     ],
-    "publisher_name": "Djailla ",
-    "publisher_contact": "bastien.vallet@gmail.com",
-    "website_url": "https://github.com/Djailla/nas-os-shellinabox"
+    "publisher_name": "kfsone",
+    "publisher_contact": "oliver@kfs.org",
+    "website_url": "https://github.com/kfsone/nas-os-shellinabox",
+    "publication_date": "2018-10-04",
+    "description_long": {
+        "en": "Based on Djailla's fork of shellinabox"
+    }
 }
