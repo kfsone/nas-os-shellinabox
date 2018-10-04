@@ -1,21 +1,25 @@
 {
     "name": {
         "en": "Shell In A Box"
-    },
+    }, 
     "description_short": {
         "en": "Shell In A Box allow you to access remote shell on a web browser. The default account credentials are admin/admin"
-    },
-    "supported_languages": [
-        "en"
-    ],
-    "categories": [
-        "productivity"
-    ],
-    "publisher_name": "kfsone",
-    "publisher_contact": "oliver@kfs.org",
-    "website_url": "https://github.com/kfsone/nas-os-shellinabox",
-    "publication_date": "2018-10-04",
+    }, 
     "description_long": {
         "en": "Based on Djailla's fork of shellinabox"
-    }
+    }, 
+    "changelog": {}, 
+    "keywords": {}, 
+    "publisher_name": "kfsone", 
+    "publisher_contact": "oliver@kfs.org", 
+    "publication_date": "2018-10-04", 
+    "website_url": "https://github.com/kfsone/nas-os-shellinabox", 
+    "privacy_url": "", 
+    "disclaimer": "", 
+    "categories": [
+        "productivity"
+    ], 
+    "supported_languages": [
+        "en"
+    ]
 }

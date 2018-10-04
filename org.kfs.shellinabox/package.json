@@ -1,16 +1,22 @@
 {
-    "type": "application",
-    "id": "org.kfs.shellinabox",
-    "version": "1.0.0",
+    "type": "application", 
+    "id": "org.kfs.shellinabox", 
+    "version": "1.0.0", 
     "depends": [
         "org.debian.wheezy-lamp-1.2"
-    ],
-    "display_mode": "embedded",
-    "redirect_mode": "custom",
+    ], 
+    "startup_mode": "auto", 
+    "settings": {}, 
     "network_ports": {
         "WEB_UI": 4200
-    },
-    "settings": {},
-    "redirect_path": "/",
-    "redirect_protocol": "http"
+    }, 
+    "port_mapping": [], 
+    "fixed_ports": [], 
+    "display_mode": "embedded", 
+    "redirect_mode": "custom", 
+    "redirect_path": "/", 
+    "redirect_protocol": "http", 
+    "user_data_access": false, 
+    "private_data_access": false, 
+    "app_data": []
 }
