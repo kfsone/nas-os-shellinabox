@@ -1,5 +1,10 @@
 #!/bin/sh
 
-apt install --update -q -y sudo
+if host -4 -ta -s wafer.lan >/dev/null 2>/dev/null
+then
+	echo 'Acquire::http::Proxy "http://wafer.lan:3142/";' >/etc/apt/apt.conf.d/02proxy
+fi
+apt-get update -q -y
+apt-get install -q -y
 
 exit 0

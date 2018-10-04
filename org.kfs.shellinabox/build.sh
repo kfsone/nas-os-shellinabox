@@ -17,7 +17,7 @@ git checkout tags/v2.20
 
 # Build the component
 autoreconf -i
-./configure && make
+CFLAGS="-O3" CXXFLAGS="-O3" ./configure && make
 
 # Copy the binary to /usr/bin
 cp /tmp/shellinabox/shellinaboxd /usr/bin
